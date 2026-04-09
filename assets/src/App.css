@@ -1,0 +1,27 @@
+
+@layer {
+.ingradient{
+  @apply cursor-pointer bg-gradient-to-r from-primary to-secondary bg-opacity-5  bg-clip-text font-bold text-transparent transition-all duration-300;   
+}
+.ing-btn{
+  @apply bg-gradient-to-r from-primary via-secondary to-main bg-opacity-5 cursor-pointer pl-5 pr-5 p-2 text-white rounded-2xl 
+}
+a .ing-btn:hover{
+  @apply bg-gradient-to-r from-main via-secondary to-primary bg-opacity-5
+}
+}
+.nav-link .active li{
+  @apply ingradient;
+}
+.nav-link .active li:hover{
+  @apply ingradient;
+}
+.active span{
+  @apply absolute left-0 bottom-[-5px] w-full h-1 rounded-xl bg-gradient-to-r from-primary to-secondary transition-all duration-300  bg-opacity-5;
+}
+#project .card:hover .link{
+@apply block  duration-300 transition-all 
+}
+#project .card:hover {
+@apply  duration-300  transition-all shadow-[1px_1px_5px_4px_rgba(255,255,255,.2)]
+}

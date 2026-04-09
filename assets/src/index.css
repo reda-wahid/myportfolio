@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.app {
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+html {
+  overflow-x: hidden;
+  position: relative;
+}
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
